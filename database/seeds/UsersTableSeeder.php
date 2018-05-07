@@ -19,6 +19,7 @@ class UsersTableSeeder extends Seeder
             'email' => 'raymondwl@163.com',
             'password' => bcrypt('password'),
             'is_admin' => true,
+            'is_activated' => true,
         ]);
     }
 }
